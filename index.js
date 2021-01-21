@@ -6,4 +6,21 @@ function BoardMember(name, homeState, training){
   this.veto = () => {
     return 'No, I must disagree';
   }
+  
+  this.approve = () => {
+    return 'You can do that!';
+  }
+  
+  this.doCharity = () => {
+    return 'I like to help people.';
+  }
+  
+  this.releasePressStatement = () => {
+    return 'You will see great things from Scuber';
+  }
 }
+
+BoardMember.prototype.sayHi(name){
+  
+}
+
